@@ -1,0 +1,73 @@
+.main-container {
+  margin: 130px auto 0px auto;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  width: 40%;
+  height: 430px;
+}
+
+#close {
+  font-weight: bold;
+  background-color: inherit;
+  color: gray;
+  float: right;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+#tag-line {
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 400;
+  padding-top: 45px;
+  color: #4B0532;
+  text-align: center;
+  margin: 0;
+  line-height: 2px;
+}
+
+h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.inner-container {
+  text-align: center;
+}
+
+#starbucks, #united, #wifi {
+  display: inline-block;
+  padding: 0px 15px 0px 15px;
+  line-height: 0px;
+}
+
+.center img {
+  margin-bottom: 30px;
+}
+
+img {
+  width: 130px;
+  height: auto;
+  padding-bottom: 5px;
+}
+
+button {
+  border: none;
+  background-color: #4B0532;
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+  padding: 10px 45px;
+}
+
+h3 {
+  color: grey;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

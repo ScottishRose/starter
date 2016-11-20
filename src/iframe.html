@@ -1,3 +1,48 @@
-<html style="background:rgba(0,0,0,0.6)">
-<!-- Edit this file to contain the lightbox -->
+<!DOCTYPE html>
+<html id="main" style="background:rgba(0,0,0,0.6)">
+  <head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div class="main-container" id="modal">
+      <button id="close" type="button" onclick="document.getElementById('modal').style.display ='none', document.getElementById('main').style.background ='none'">X</button>
+        <h1>BOOK DIRECT. GET REWARDED.</h1>
+          <h4 id="tag-line">GET 3 FREE REWARDS LIKE:</h4>
+          <div class="inner-container">
+            <div id="starbucks">
+              <img src="http://vignette1.wikia.nocookie.net/logopedia/images/1/1a/Starbucks_logo_2011.png/revision/latest?cb=20120721153544">
+                <h4>Starbucks</h4>
+                <p>Free Coffee</p>
+            </div>
+            <div class="center" id="united">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/United_Airlines_Logo.svg/1024px-United_Airlines_Logo.svg.png">
+                <h4>United Airlines</h4>
+                <p>Free $25 Credit</p>
+            </div>
+            <div id="wifi">
+              <img src="https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/topic_images/2014/Gogo_4C_RGB_PNG_0.png?itok=6YhKbFsE">
+                <h4>Go-Go Wi-Fi</h4>
+                <p>Free Wi-Fi</p>
+            </div>
+            <button><a href="https://hoteldivasf.reztrip.com/classic/en/searches/583221b37e236100d757de56/hotels/SFOHDI/rooms?action=show&adults%5B%5D=1&arrival_date=2016-11-20&children%5B%5D=0&controller=landings&departure_date=2016-11-21#?category=">Book Now + Get Free Rewards &rarr;</a></button>
+            <h3>Best Rate Guaranteed</h3>
+          </div>
+      </div>
+      <script type="text/javascript">
+        const modal = document.getElementById('modal');
+        window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+        }
+        const main = document.getElementById('main');
+        window.onclick = function(event) {
+          if (event.target == main) {
+            main.style.background = "none";
+          }
+        }
+      </script>
+  </body>
 </html>
